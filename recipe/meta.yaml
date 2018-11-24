@@ -15,8 +15,8 @@ source:
   sha256: 4901bb4643351b6d9940ccc20194cf228161979549a08eed87005a135b024eaf
 
 build:
-  number: 1
-  skip: true  # [win32]
+  noarch: generic
+  number: 1001
 
   rpaths:
     - lib/R/lib/
@@ -46,8 +46,7 @@ about:
   home: https://CRAN.R-project.org/package=Demerelate
   license: GPL (>= 2)
   license_family: GPL3
-  license_file: '{{ environ["PREFIX"] }}/lib/R/share/licenses/GPL-3'  # [unix]
-  license_file: '{{ environ["PREFIX"] }}\R\share\licenses\GPL-3'  # [win]
+  license_file: '{{ environ["PREFIX"] }}/lib/R/share/licenses/GPL-3'
   summary: Functions to calculate pairwise relatedness on diploid genetic datasets. Different
     estimators for relatedness can be combined with information on geographical distances.
     Information on heterozygosity, allele- and genotype diversity as well as genetic
