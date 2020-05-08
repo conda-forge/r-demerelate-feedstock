@@ -44,7 +44,7 @@ test:
 
 about:
   home: https://CRAN.R-project.org/package=Demerelate
-  license: GPL (>= 2)
+  license: GPL-2.0-or-later
   license_family: GPL3
   license_file: '{{ environ["PREFIX"] }}/lib/R/share/licenses/GPL-3'
   summary: Functions to calculate pairwise relatedness on diploid genetic datasets. Different
