@@ -1,11 +1,11 @@
-About r-demerelate
-==================
+About r-demerelate-feedstock
+============================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-demerelate-feedstock/blob/main/LICENSE.txt)
 
 Home: https://CRAN.R-project.org/package=Demerelate
 
 Package license: GPL-2.0-or-later
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-demerelate-feedstock/blob/main/LICENSE.txt)
 
 Summary: Functions to calculate pairwise relatedness on diploid genetic datasets. Different estimators for relatedness can be combined with information on geographical distances. Information on heterozygosity, allele- and genotype diversity as well as genetic F-statistics are provided for each population.
 
